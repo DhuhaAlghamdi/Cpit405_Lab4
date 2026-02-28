@@ -1,40 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+background-color: #cce5ff;
+font-family: Arial, sans-serif;
+padding: 30px;
 }
 
 h1 {
-    text-align: center;
+color: #003366;
+text-align: center;
 }
 
 form {
-    width: 400px;
-    margin: auto;
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
+background-color: #ffffff;
+padding: 20px;
+width: 500px;
+margin: 0 auto;
 }
 
 label {
-    display: block;
-    margin-top: 10px;
+display: block;
+font-weight: bold;
+margin-top: 10px;
+color: #003366;
 }
 
 input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+width: 100%;
+padding: 8px;
+margin-top: 4px;
+border: 1px solid #003366;
+box-sizing: border-box;
 }
 
-button {
-    width: 100%;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border: none;
+textarea {
+height: 100px;
+}
+
+input[type=“submit”] {
+background-color: #003366;
+color: white;
+margin-top: 15px;
+cursor: pointer;
+border: none;
 }
 
 button:hover {
     background-color: #444;
+
 }
